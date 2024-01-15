@@ -1,5 +1,9 @@
 /*Estilos da página index.html*/
 
+main {
+    min-height: 61vh;
+}
+
 .center {
     text-align: center;
 }
@@ -9,6 +13,22 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+}
+
+.icones {
+    margin: 50px 50px;
+}
+
+footer {
+    border-top: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin: 50px 0px 5px 0px;
+    padding: 20px 20px 0px;
+}
+
+.texto-footer {
+    flex-flow: column;
 }
 
 #menu li {
@@ -34,8 +54,22 @@
     border-radius: 50%;
 }
 
-.wh-300 {
-    width: 300px;
-    height: 300px;
+.text-center {
+    text-align: center;
 }
 /*Estilos da página contato.html*/
+
+.container .item-1 {
+    order: 1;
+    margin: 50px;
+}
+
+.container .right-column{
+    flex-direction: column;
+    order: 2;
+    margin: 50px;
+}
+
+.container .item-3 {
+    order: 3;
+}
